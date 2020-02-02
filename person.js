@@ -1,8 +1,8 @@
 class Person {
   constructor(firstName, lastName, country) {
-    // if (firstName === undefined || lastName === undefined || country === undefined){
-    //   throw "please provide firstName, lastName, country";
-    // }
+    if (firstName === undefined || lastName === undefined || country === undefined){
+      throw "please provide firstName, lastName, country";
+    }
     this.firstName = firstName;
     this.lastName = lastName;
     this.country = country;
